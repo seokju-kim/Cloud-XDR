@@ -1,0 +1,47 @@
+* XDR
+XDR은 탐지 및 대응에 대한 전체적인 접근 방식을 사용하여 이러한 사일로를 분석합니다. XDR은 이메일, 엔드포인트, 서버, 클라우드 워크로드 및 네트워크 등 여러 보안 계층에서 탐지 및 심층 활동 데이터를 수집하고 상호 연관시킵니다. 풍부한 데이터의 상위 집합을 자동으로 분석하면 위협을 더 빠르게 탐지할 수 있습니다. 결과적으로 CISO와 보안 분석가는 조사를 통해 더 많은 작업을 수행하고 더 빠른 조치를 취할 수 있습니다.
+
+* XDR vs. XDR
+클라우드별 탐지 및 대응 솔루션이 완전히 필요합니다.
+가시성과 컨텍스트를 제공하는 클라우드 사고 감지용으로 설계된 솔루션이 필요합니다.
+경고 피로를 줄이고 올바른 신호에 따라 조치를 취하는 데 도움이 되는 솔루션이 필요합니다.
+클라우드 환경에서 더 쉬운 위협 사냥과 자동화된 기능이 필요합니다.
+
+* CDR 주요 효과
+지능형 위협 탐지 및 신속한 사고 대응을 통해 클라우드 및 하이브리드 환경의 보안 강화
+더 빠르게 감지하고 대응할 수 있는 능력을 통해 조직은 사고를 통제하고 비즈니스에 미치는 영향을 최소화할 수 있습니다.
+다양한 계층에 걸쳐 데이터 집계 및 상관 관계를 통해 하이브리드 클라우드 환경의 보안 환경에 대한 전체적인 보기를 제공합니다.
+
+* CDR 목표
+다양한 로그 데이터를 통합하여 사각지대를 제거하고 포괄적인 보안 환경을 보장합니다.
+고급 모델과 상관 관계를 활용하여 위협을 식별하고 잠재적인 침해보다 한 발 앞서 시스템을 유지하세요.
+경고 및 자동화된 대응 조치에 대한 필수 콘텐츠를 제공하여 위협에 신속하게 대응할 수 있도록 합니다.
+
+* CDR Working
+Integration
+Data Aggregation
+Advanced Analytics
+Threat Detection Using Research & Models
+Assisting Analysts with LLM(Layered Learning Models)
+Automated Response
+
+* CDR Models
+1) AWS CloudTrail Integrations
+Cloudtrail logs provide insight into all users, services, and resource activity
+Who or what took which action
+Which resources were acted upon
+When the event occurred
+2) AWS Detection models utilizing CloudTrail Integrations
+AWS IAM policy privilege escalation through policy rollback
+AWS RDS master password modification
+AWS S3 bucket data exfiltration
+AWS IAM login MFA deactivated for a user 
+and more...
+3) Response Actions
+Contain IAM user by revoking access
+4) Detection Models based on Container Security Logs
+Possible container escape
+Possible miner in the container
+Privilege escalation in the container
+Suspicious activity in the container
+
